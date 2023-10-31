@@ -1,2 +1,42 @@
 <!DOCTYPE html>
-jjj
+<html>
+    <head>
+        <title>Tutoring for The Kean Community</title>  
+    <style>
+        ul.navbar{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li.navitem {
+            float: left;
+        }
+
+        li.navitem a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li.navitem a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>How To Start</h1>
+    <p>You're on your first step to improving in your classes! Let's get you logged in.</p>
+
+
+        
+    </style>
+    <body>
+      
+    </body>
+</html>
+
