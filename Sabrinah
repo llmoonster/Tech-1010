@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Tutoring for The Kean Community</title>  
-    <style>
-        ul.navbar{
+<title>About Us</title>
+        <style>
+        /* Add some basic styling for the navigation bar */
+        ul.navbar {
             list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: hidden;
             background-color: #333;
         }
+
         li.navitem {
             float: left;
         }
@@ -28,15 +28,32 @@
     </style>
 </head>
 <body>
+    <ul class="navbar">
+        <li class="navitem"><a href="index.html">Home</a></li>
+        <li class="navitem"><a href="">How to Start</a></li>
+        <li class="navitem"><a href="#">About Us</a></li>
+        <li class="navitem"><a href="#">Schedule an Appointment</a></li>
+        <li class="navitem"><a href="#">Student Reviews</a></li>
+        <li class="navitem"><a href="#">Teacher Ratings</a></li>
+        <li class="navitem"><a href="#">Resources</a></li>
+        <li class="navitem"><a href="#">Become a tutor</a></li>
+        <li class="navitem"><a href="#">Study Tips</a></li>
+        <li class="navitem"><a href="#">FAQ</a></li>
+    </ul>
 
-    <h1>How To Start</h1>
-    <p>You're on your first step to improving in your classes! Let's get you logged in.</p>
+    <h1>About Us</h1>
 
+    <h2>Our Mission</h2>
+    <p>You're on the first step to improving your grades at Kean. Let's get started!</p>
 
-        
-    </style>
-    <body>
-      
-    </body>
+    <h2></h2>
+    <p>Provide a brief overview of your organization's history, when it was founded, and any significant milestones.</p>
+
+    <h2>Our Team</h2>
+    <p>Introduce key team members and their roles. You can include photos and brief bios if desired.</p>
+
+    <h2>Contact Information</h2>
+    <p>If applicable, provide contact details for inquiries or support.</p>
+
+</body>
 </html>
-
