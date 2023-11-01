@@ -4,7 +4,6 @@ link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <ul class="navbar">
-        <li class="navitem"><a href="index.html">Home</a></li>
         <li class="navitem"><a href="">How to Start</a></li>
         <li class="navitem"><a href="#">About Us</a></li>
         <li class="navitem"><a href="MakeApp.html">Schedule an Appointment</a></li>
