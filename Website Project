@@ -15,19 +15,7 @@
         <li class="navitem"><a href="#">FAQ</a></li>
     </ul>
 
-    <h1>About Us</h1>
-
-    <h2>Our Mission</h2>
-    <p>You're on the first step to improving your grades at Kean. Let's get started!</p>
-
-    <h2></h2>
-    <p>Provide a brief overview of your organization's history, when it was founded, and any significant milestones.</p>
-
-    <h2>Our Team</h2>
-    <p>Introduce key team members and their roles. You can include photos and brief bios if desired.</p>
-
-    <h2>Contact Information</h2>
-    <p>If applicable, provide contact details for inquiries or support.</p>
+    <h1>Home</h1>
 
 </body>
 </html>
