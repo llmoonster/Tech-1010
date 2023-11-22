@@ -1,47 +1,154 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="mystyle.css">
-</head>
+<title>FAQ</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <body>
-    
-<h1>FAQ</h1>
-<p>Most commonly asked question by our loyal customers!</p>
-<h2></h2>
-<label for="menu1">What colleges do we work with?</label>
-<select name="menu1" id="menu1">
-    <option value="option1">Kean University</option>
-    <option value="option2">Rutgers All Locations</option>
-    <option value="option3">Montclair State</option>
-</select>
+    <ul class="navbar">
+        <li class="navitem"><a href="Website Project.html">Home</a></li>
+        <li class="navitem"><a href="howtostart.html">How to Start</a></li>
+        <li class="navitem"><a href="aboutus.html">About Us</a></li>
+        <li class="navitem"><a href="MakeApp.html">Schedule Appointment</a></li>
+        <li class="navitem"><a href="studRate.html">Student Reviews</a></li>
+        <li class="navitem"><a href="rateTeach.html">Teacher Ratings</a></li>
+        <li class="navitem"><a href="resource.html">Resources</a></li>
+        <li class="navitem"><a href="tutor.html">Become a tutor</a></li>
+        <li class="navitem"><a href="studTips.html">Study Tips</a></li>
+    </ul>
+</body> 
+<div class="page" data-uia-heading-skin="skin-2" data-uia-feedback-skin="skin-1">
+    <div class="page__container">
+        <header class="page__header" aria-labelledby="main-heading">
+            <h1 id="main-heading" class="page__logo uia-logo ra-heading">
+                <span class="uia-logo__first-name">RTV</span>
+                <span class="uia-logo__last-name">Some frequently asked questions</span>
+                <span class="ha-screen-reader">is a user interface designer</span>
+            </h1>
+            <nav class="page__navigation ha-screen-reader" aria-label="main">
+                <ul role="list" class="page_navigation-groups ra-list uia-scroller">
+                    <li class="page_navigation-group uia-scroller__item">
+                        <a href="#main-heading" class="ra-link uia-control">
+                            <span class="uia-control__group">Home</span>
+                        </a>
+                    </li>
+                    <li class="page_navigation-group uia-scroller__item">
+                        <a href="#about-me-heading" class="ra-link uia-control">
+                            <span class="uia-control__group">About me</span>
+                        </a>
+                    </main>
+            </nav>
+            <address class="page__contacts ra-address" data-uia-control-skin="skin-4">
+                <ul role="list" class="page__accounts uia-scroller ra-list">
 
-<h2></h2>
-<label for="menu2">What subject help do we offer?</label>
-<select name="menu2" id="menu2">
-    <option value="optionA">Mathematics</option>
-    <option value="optionB">Sciences</option>
-    <option value="optionC">Coding Help</option>
-    <option value="optionC">Research Papers/Writing</option>
-    </select>
 
-<h3></h3>
-<label for="menu3">What academic level do we teach?</label>
-<select name="menu3" id="menu3">
-    <option value="optionA">College Freshmen</option>
-    <option value="optionB">College Sophomore</option>
-    <option value="optionC">College Junior</option>
-    <option value="optionC">College Senior</option>
-    <option value="optionC">Graduate Students</option>
-    </select>
+                </ul>
+            </address>
+        </header>
+        <main class="page__main">
+            <section class="page__section" aria-labelledby="about-me-heading">
+                <h2 id="about-me-heading" class="page__heading uia-heading ra-heading">
+                    <span class="uia-heading__text">FAQ</span>
+                </h2>
+                <div class="page__content">
+                    <div class="page__my-story">    
+                        <p>
+                            <div class="faq">
+                   
+                                <div>
+                                 <p class="question">What are the requirements for RTV?<span onclick='faq(this)' class="opener">+</span></p>
+                                 <p class="answer">There are no requirements to part take in this program</p>
+                                </div>
+                               
+                                <div>    
+                                 <p class="question">What services are specifically offered?<span onclick='faq(this)' class="opener">+</span></p>
+                                 <p class="answer">RTV offers services such as tutoring,mentoring, college prep and live workshhps</p>
+                                </div>
+                               
+                                <div>    
+                                 <p class="question">For this program, is there a payment? <span onclick='faq(this)' class="opener">+</span></p>
+                                 <p class="answer">To be part of RTV there is a payment made for specifc
+                                    services depending the amount of time</p>  
+                                </div>
+                                <div>
+                                    <p class="question">Is it only open for Juniors and Seniors in High School?<span onclick='faq(this)' class="opener">+</span></p>
+                                    <p class="answer">While we target Juniors and Seniors, it is not exclusive to them</p>
+                                   </div>
+                                   
+                                   <div>    
+                                    <p class="question">Are there any live classes offerred? <span onclick='faq(this)' class="opener">+</span></p>
+                                    <p class="answer">Most of the services are offered online but we are open to live classes depending where
+                                        you are located
+                                    </p>
+                                   </div>
+                                   
+                                   <div>    
+                                    <p class="question">What is the wage for applying tutors? <span onclick='faq(this)' class="opener">+</span></p>
+                                    <p class="answer">Depending on the qualifications it can range from 18-22$ an hour</p>  
+                                   </div>
+                                   <div>    
+                                    <p class="question">Are there any plans for this program? <span onclick='faq(this)' class="opener">+</span></p>
+                                    <p class="answer">There are no packages currently open</p>  
+                                   </div>
+                               
+                            </div>
+                        </p>
+           
+                    </div>
+                </div>
+            </section>
+<style>      
+  
+    .faq {
+    width:70%;
+    margin: 0 auto;
+    }
+    .faq div {
+    border: 1px solid #000;
+    margin: 5px 0px;
+    background-color:#fff;
+    }
+    .question {
+    font-size:18px;
+    background-color:#5e61b0;
+    margin:0px;
+    padding: 15px;
+    }
+    .answer {
+    font-size:12px;
+    margin:0px;
+    padding: 0px 15px;
+    line-height:2;
+    max-height:0px;
+    overflow:hidden;
+    transition:2s;
+    background-color: #dbdbef;
+    color: #000;
+    }
+    .opener
+    {
+    font-size:25px;
+    float:right;
+    line-height:0.8;
+    cursor: pointer;
+    }
+    </style>  
+<script>
+    function faq(ele)
+    {
+    var x = ele.parentElement.nextElementSibling.style.cssText;
+    if(x=='max-height: 500px;')
+    {    
+    ele.style.cssText='transform: rotate(0deg);';    
+    ele.parentElement.nextElementSibling.style.cssText = "transition:0.3s;max-height:0px;";    
+    }
+    else
+    {
+    ele.style.cssText='transform: rotate(45deg);';  
+    ele.parentElement.nextElementSibling.style.cssText = "max-height:500px;";
+    }
+    }
+    </script>        
 
-<h4></h4>
-<label for="menu4">How to Contact Us?</label>
-<select name="menu4" id="menu4">
-    <option value="optionA">Email: collegetutor@college.edu</option>
-    <option value="optionB">Phone: 908-555-7890</option>
-
-</select>
-
-<img src="https://www.msdelta.edu/ghec/mdcc/tutoring-services.php" alt="tutoring-services-faq.jpg" width="480" height="450">
-</body>
-</html
+</html>
