@@ -3,20 +3,105 @@
 <html>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Become a Tutor</title>
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 20px;
+      }
+
+      header {
+          text-align: center;
+          padding: 20px;
+          background-color: #f2f2f2;
+      }
+
+      main {
+          margin-top: 20px;
+      }
+
+      section {
+          margin-bottom: 20px;
+      }
+
+      h2 {
+          color: #333;
+      }
+
+      p {
+          line-height: 1.6;
+          color: #555;
+      }
+  </style>
 </head>
 <body>
-    <ul class="navbar">
-        <li class="navitem"><a href="index.html">Home</a></li>
-        <li class="navitem"><a href="howtostart.html">How to Start</a></li>
-        <li class="navitem"><a href="aboutus.html">About Us</a></li>
-        <li class="navitem"><a href="#">Student Reviews</a></li>
-        <li class="navitem"><a href="rateTeach.html">Teacher Ratings</a></li>
-        <li class="navitem"><a href="#">Resources</a></li>
-        <li class="navitem"><a href="#">Become a tutor</a></li>
-        <li class="navitem"><a href="#">Study Tips</a></li>
-        <li class="navitem"><a href="#">FAQ</a></li>
-    </ul>
 
-    <h1>Schedule an Appointment</h1>
+  <header>
+      <h1>Request your appointment today </h1>
+      <p> Are you ready to take control of your schedule and create life long habits? </p>
+  </header>
+
+  
+
+    <form action="SEND ADDRESS" id="ft-form" method="POST" accept-charset="UTF-8">
+      <fieldset>
+        <legend>Contact Information </legend>
+        <label>
+          Name
+          <input type="text" name="name" required>
+        </label>
+        <div class="two-cols">
+          <label>
+            Email address
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            Phone number
+            <input type="tel" name="phone">
+          </label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Appointment request</legend>
+        <div class="two-cols">
+          <label>
+            Date
+            <input type="date" name="Appointment request" required>
+          </label>
+          <div class="inline">
+            <label>
+              <input type="hidden" name="Morning desired" value="no">
+              <input type="checkbox" name="Morning desired" value="yes">
+              Morning
+            </label>
+            <label>
+              <input type="hidden" name="Afternoon desired" value="no">
+              <input type="checkbox" name="Afternoon desired" value="yes">
+              Afternoon
+            </label>
+          </div>
+        </div>
+        <p>Confirmation requested by</p>
+        <div class="inline">
+          <label>
+            <input type="radio" name="Confirmation requested by" value="email" checked>
+            Email
+          </label>
+          <label>
+            <input type="radio" name="Confirmation requested by" value="phone">
+            Phone call
+          </label>
+        </div>
+      </fieldset>
+      <div class="btns">
+        <input type="text" name="_gotcha" value="" style="display:none;">
+        <input type="submit" value="Submit request">
+      </div>
+    </form>
+    <footer>
+      <p>&copy; 2023 Make an Appointment</p>
+  </footer>
 </body>
 </html>
