@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<title>Student Ratings</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/6fa87a3dc5.js" crossorigin="anonymous"></script>
+<body>
+    <ul class="navbar">
+        <li class="navitem"><a href="Website Project.html">Home</a></li>
+        <li class="navitem"><a href="howtostart.html">How to Start</a></li>
+        <li class="navitem"><a href="MakeApp.html">Schedule Appointment</a></li>
+        <li class="navitem"><a href="rateTeach.html">Teacher Ratings</a></li>
+        <li class="navitem"><a href="resource.html">Resources</a></li>
+        <li class="navitem"><a href="tutor.html">Become a tutor</a></li>
+        <li class="navitem"><a href="studTips.html">Study Tips</a></li>
+        <li class="navitem"><a href="FAQ.html">FAQ</a></li>
+        <li class="navitem"><a href="joinUs.html">Join Us</a></li>
+
+    </ul>
+</body>
+<body>
+<section id="testimonials">
+        <!--heading--->
+        <div class="testimonial-heading">
+            <span>Reviews</span>
+            <h1>Students Say: </h1>
+        </div>
+        <!--testimonials-box-container------>
+        <div class="testimonial-box-container">
+            <!--BOX-1-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="images/c-5.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Mark Williams</strong>
+                            <span>@Williams_Pase</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>As a student who was never ready or always prepared for the class work, Road To Victory has done an amazing job instructing me, as I have seen great strides and I feel much more confident and capabable. Which has been represented by my Grades.</p>
+                </div>
+            </div>
+            <!--BOX-2-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="images/c-6.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Aylin Luna</strong>
+                            <span>@luna.0607</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>I am currently in my Senior Year of High School and I was completely lost in my search for what university I wanted to attend but with the guidence of this program, I was able to make a solid plan and executing it allowing me to be accepted to many Colleges.</p>
+                </div>
+            </div>
+            <!--BOX-3-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="images/c-7.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Olivia Armstrong</strong>
+                            <span>@Olivia.strong</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>I generally have many issues in understanding material that is being taught in my classes. I was under the impression that I was in the wrong but with the tutoring services offered, I was able to both grow and excel in all my subjects in a matter of weeks, and this is because of the understanding and effective methods offered.</p>
+                </div>
+            </div>
+            <!--BOX-4-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="images/c-8.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Kevin Allen</strong>
+                            <span>@allen-1k</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>I Would like to say many thanks to RTV because of the major help they did in both preparing my for college by giving my real life experiences as well as offered so much advice that greatly facilitated my transition to university.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
