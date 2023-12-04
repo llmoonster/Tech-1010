@@ -1,37 +1,117 @@
 <!DOCTYPE html>
+<html>
 <title>Home</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
-<head> </head>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <body>
     <ul class="navbar">
         <li class="navitem"><a href="howtostart.html">How to Start</a></li>
-        <li class="navitem"><a href="aboutus.html">About Us</a></li>
-        <li class="navitem"><a href="MakeApp.html">Schedule an Appointment</a></li>
-        <li class="navitem"><a href="#">Student Reviews</a></li>
+        <li class="navitem"><a href="MakeApp.html">Schedule Appointment</a></li>
+        <li class="navitem"><a href="studRate.html">Student Reviews</a></li>
         <li class="navitem"><a href="rateTeach.html">Teacher Ratings</a></li>
-        <li class="navitem"><a href="#">Resources</a></li>
-        <li class="navitem"><a href="#">Become a tutor</a></li>
-        <li class="navitem"><a href="#">Study Tips</a></li>
-        <li class="navitem"><a href="#">FAQ</a></li>
+        <li class="navitem"><a href="resource.html">Resources</a></li>
+        <li class="navitem"><a href="tutor.html">Become a tutor</a></li>
+        <li class="navitem"><a href="studTips">Study Tips</a></li>
+        <li class="navitem"><a href="FAQ.html">FAQ</a></li>
+        <li class="navitem"><a href="joinUs.html">Join Us</a></li>
+
     </ul>
 </body>
-<section>
-    <nav>
-      <ul>
-        <li><a href="#">London</a></li>
-        <li><a href="#">Paris</a></li>
-        <li><a href="#">Tokyo</a></li>
-      </ul>
-    </nav>
- <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  </article>
-</section>
-<footer>
-    <p>Footer</p>
+<main>
+  <div class="intro">
+    <h1>Road To Victory</h1>
+    <button>Learn More</button>
+  </div>
+</main>
+    <div class="page" data-uia-heading-skin="skin-2" data-uia-feedback-skin="skin-1">
+    <div class="page__container">
+        <header class="page__header" aria-labelledby="main-heading">
+            <h1 id="main-heading" class="page__logo uia-logo ra-heading">
+                <span class="uia-logo__first-name">RTV</span>
+                <span class="uia-logo__last-name">Road To Victory</span>
+                <span class="ha-screen-reader">is a user interface designer</span>
+            </h1>
+            <nav class="page__navigation ha-screen-reader" aria-label="main">
+                <ul role="list" class="page_navigation-groups ra-list uia-scroller">
+                    <li class="page_navigation-group uia-scroller__item">
+                        <a href="#main-heading" class="ra-link uia-control">
+                            <span class="uia-control__group">Home</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <address class="page__contacts ra-address" data-uia-control-skin="skin-4">
+                <ul role="list" class="page__accounts uia-scroller ra-list">
+                    <li class="page__account uia-scroller__item">
+                        <a href="https://cssisntmagic.substack.com" class="ra-link uia-control" aria-label="Read my tips about CSS on Substack" title="Read my tips about CSS on Substack" target="_blank">
+                            <span class="uia-control__group ha-icontext">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="page__account uia-scroller__item">
+                        <a href="https://www.linkedin.com/in/melnik909" class="ra-link uia-control" aria-label="Get in touch on Linkedin" title="Get in touch on Linkedin" target="_blank">
+                            <span class="uia-control__group ha-icontext">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="page__account uia-scroller__item">
+                        <a href="https://codepen.io/melnik909" class="ra-link uia-control" aria-label="Look at my works on Codepen" title="Look at my works on Codepen" target="_blank">
+                            <span class="uia-control__group ha-icontext">Twitter</span>
+                        </a>                        
+                    </li>
+                </ul>
+            </address>
+        </header>
+        <main class="page__main">
+            <section class="page__section" aria-labelledby="about-me-heading">
+                <h2 id="about-me-heading" class="page__heading uia-heading ra-heading">
+                    <span class="uia-heading__text">About Us</span>
+                </h2>
+                <div class="page__content">
+                    <div class="page__my-story">    
+                        <p>
+                            Hi! This is our program Road To Victory, we are comprised of 5 members
+                            The purpose of our program is to assist and guide High School students
+                            who are not able to properly decide on what plan of action to take in
+                            their selection for college. Addition we would like to serve some insight
+                            to what it means to go to college and the challenges they might face.    
+                        </p>
+                        <p>
+                            Our 5 members are:
+                        </p>
+                        <p>
+                            -
+                        </p>
+                        <p>
+                            -
+                        </p>
+                        <p>
+                            -
+                        </p>
+                        <p>
+                            -
+                        </p>
+                        <p>
+                            -
+                        </p>
+                        <p>
+                            We believe this knowledge must be available to everyone who is interested in pursuing College.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</div>
+
+<footer class="footer">
+  <div class="copy">&copy; 2022 R.T.V</div>
+  <div class="bottom-links">
+    <div class="links">
+      <span>More Info</span>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
 </footer>
 </html>
-
