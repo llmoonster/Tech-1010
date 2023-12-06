@@ -1,1 +1,105 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meet Our Staff</title>
+  <style>
+    body {
+      font-family: 'Times New roman', Times new 'Times New Roman';
+      background-color: #0C547D;
+      color: #333;
+      margin: 0.5;
+      padding: 0;
+    }
+
+    header {
+      background-color: #555;
+      color: white;
+      text-align: center;
+      padding: 0.1;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #0C547D;
+    }
+
+    .question {
+      margin-bottom: 10px;
+    }
+
+    .answer {
+      margin-bottom: 20px;
+    }
+
+    .staffimage1 {
+        margin-bottom: 20px;
+    }
+
+    .staffimage {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 0.2;
+      background-color: #555;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meet Our Staff</h1>
+  </header>
+
+  <section>
+    <div class="staff-member">
+      <h2 class="staff-name">Zendaya</h2>
+      <p class="staff-position">CEO</p>
+    </div>
+
+    <div class="staff-member">
+      <h2 class="staff-name">Noah Beck</h2>
+      <p class="staff-position">Lead Developer</p>
+    </div>
+
+    <div class="staff-member">
+        <h2 class="staff-name">Claire Dunphy</h2>
+        <p class="staff-position">Director of Academics</p>
+      </div>
+      
+    <div class="staff-member">
+        <h2 class="staff-name">Kris Jenner</h2>
+        <p class="staff-position">Assistant Director of Academics</p>
+      </div>
+      
+    <div class="staff-member">
+        <h2 class="staff-name">Dwayne Johnson</h2>
+        <p class="staff-position">Lead Manager</p>
+      </div>
+    
+
+  </section>
+
+  <footer>
+    <p>&copy; Road to Victory 2023
+  </footer>
+</body>
+</html>
