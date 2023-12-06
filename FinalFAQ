@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', 'Times New Roman';
+      background-color: #0C547D;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #555;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #0C547D;
+    }
+
+    .question {
+      margin-bottom: 10px;
+    }
+
+    .answer {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 0.5;
+      background-color: #555;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FAQ</h1>
+  </header>
+
+  <section>
+    <div class="faq-item">
+      <h2 class="question">What colleges do we work with?</h2>
+      <p class="answer">We work with Kean Univeristy, All Rutgers University locations and Montclair State University</p>
+    </div>
+
+    <div class="faq-item">
+      <h2 class="question">What subject help do we offer?</h2>
+      <p class="answer">Mathematics, Sciences, Essay Help and History</p>
+    </div>
+
+    <div class="faq-item">
+        <h2 class="question">What academic level do we cater to?</h2>
+        <p class="answer">High school seniors, all college levels and graduate students</p>
+      </div>
+  
+      <div class="faq-item">
+        <h2 class="question">Contact Information?</h2>
+        <p class="answer">Phone Number: 908-555-7980
+          Email: Roadtovictory@gmail.com
+        </p>
+      </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; Road to Victory 2023</p>
+  </footer>
+</body>
+</html>
