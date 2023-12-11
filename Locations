@@ -1,48 +1,76 @@
+
 <!DOCTYPE html>
-<title>Locations</title>
-<html>
-<link href="style.css" rel="stylesheet" type="text/css" />
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-      body {
-          font-family: Arial, sans-serif;
-          margin: 20px;
-      }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
 
-      header {
-          text-align: center;
-          padding: 20px;
-          background-color: #f2f2f2;
-      }
+        header {
+            background-color: #271d52;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
 
-      main {
-          margin-top: 20px;
-      }
+        nav {
+            background-color: #36127d;
+            padding: 10px;
+            text-align: center;
+        }
 
-      section {
-          margin-bottom: 20px;
-      }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
 
-      h2 {
-          color: #333;
-      }
+        nav a:hover {
+            background-color: #666;
+        }
 
-      p {
-          line-height: 1.6;
-          color: #555;
-      }
-  </style>
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+        }
+    </style>
 </head>
 <body>
 
-  <header>
-    <h1>Where to Find Us  </h1>
-    <p> We offer services On campus and Online </p>
-</header>
+    <header>
+        <h1>Locations</h1>
+    </header>
 
-<header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
 
-  <p> The rest of this page is currently under construction </p>
-</header>
+    <section>
+        <p> We are conviently located at the heart of our Main Campus, at the library building.</pr>
+
+          <br>
+
+        <pr> Come grab a cup of coffee and join us at our next group session. </pr>
+
+          <br> 
+
+          <pr> There you can find us 2 times a week between the hours of 2pm - 4pm, Tuesday and Thursday.</pr>
+<br>
+
+          <pr>We are also available online 5 days a week.</pr>
+    
+    </section>
+
+</body>
+</html>
